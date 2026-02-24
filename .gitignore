@@ -1,4 +1,7 @@
 *.pdf
+# Ignore Quarto-generated template.typ in template root dirs, but not in _extensions
+/*/template.typ
 .DS_Store
 
 /.luarc.json
+.quarto/

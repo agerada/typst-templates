@@ -5,6 +5,9 @@ $endif$
 $if(author)$
   author: "$author$",
 $endif$
+$if(paper-size)$
+  paper-size: "$paper-size$",
+$endif$
 $if(dedication)$
   dedication: [$dedication$],
 $endif$

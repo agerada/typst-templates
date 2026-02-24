@@ -1,0 +1,19 @@
+# typst-gather configuration
+# Run: quarto call typst-gather
+
+rootdir = "_extensions/dept-news"
+destination = "typst/packages"
+
+discover = ["typst-template.typ", "typst-show.typ"]
+
+# Preview packages are auto-discovered from imports.
+# Uncomment to pin specific versions:
+# [preview]
+# cetz = "0.4.1"
+
+# Local packages (@local namespace) must be configured manually.
+# Found @local imports:
+#   @local/dashing-dept-news:0.1.1 (in typst-template.typ)
+[local]
+dashing-dept-news = "../../typst-templates-upstream/dashing-dept-news"
+

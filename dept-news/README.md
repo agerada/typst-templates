@@ -1,8 +1,6 @@
 # Dept News Format
 
-Based on the dept-news template published by the Typst team at <https://github.com/typst/templates/tree/main/dept-news>.
-
-**NOTE**: This format requires the pre-release version of Quarto v1.4, which you can download here: <https://quarto.org/docs/download/prerelease>.
+Quarto format for [dashing-dept-news](https://typst.app/universe/package/dashing-dept-news), a Typst template by the Typst team.
 
 ## Installing
 
