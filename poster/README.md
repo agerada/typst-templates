@@ -17,18 +17,23 @@ Specify poster size, authors/affiliation, and footer content using the YAML opti
 
 ```yaml
 ---
-title: This is an academic poster with typst and quarto!
+title: Your poster title here
 format:
   poster-typst: 
-    size: "36x24"
-    poster-authors: "A. Smith, B. Jones, C. Brown, D. Miller"
-    departments: "Department of Computer Science"
-    institution-logo: "./images/ncstate.png"
-    footer-text: "posit::conf 2023"
-    footer-url: "https://posit.co/conference/"
-    footer-emails: "abc@example.com"
-    footer-color: "ebcfb2"
-    keywords: ["Typesetting", "Typst", "Quarto"]
+    size: "33x46"
+    num-columns: "2"
+    poster-authors: "First Author, Second Author, Third Author"
+    authors-font-size: 34
+    title-font-size: 55
+    departments: "Department of Pharmacology and Therapeutics, University of Liverpool"
+    institution-logo: "./images/uol.png"
+    univ-logo-scale: "75"
+    footer-text: "ESCMID Global Vienna 2025"
+    footer-url: "liverpool.ac.uk"
+    footer-emails: "name@liverpool.ac.uk"
+    footer-color: "81bbbb"
+    body-font-size: 26
+    keywords: ["Machine learning", "Whole genome sequencing", "Antimicrobial resistance", "Antimicrobial susceptibility testing"]
 ---
 ```
 

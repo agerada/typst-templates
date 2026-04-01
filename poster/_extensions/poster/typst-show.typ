@@ -70,5 +70,8 @@
   // Footer's text font size (in pt).
   $if(footer-text-font-size)$ footer_text_font_size: [$footer-text-font-size$], $endif$
 
+  // Body text font size (in pt).
+  $if(body-font-size)$ body_font_size: $body-font-size$, $endif$
+
   doc,
 )

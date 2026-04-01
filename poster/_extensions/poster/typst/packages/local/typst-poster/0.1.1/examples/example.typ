@@ -5,7 +5,7 @@
   title: "A typesetting system to untangle the scientific writing process",
   authors: "A. Smith, B. Jones, C. Brown, D. Miller",
   departments: "Department of Computer Science",
-  univ_logo: "./images/ncstate.png",
+  univ_logo: "./images/uol.png",
   footer_text: "Conference on Typesetting Systems, 2000",
   footer_url: "https://www.example.com/",
   footer_email_ids: "abc@example.com",

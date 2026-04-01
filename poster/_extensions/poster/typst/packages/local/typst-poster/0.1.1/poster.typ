@@ -64,11 +64,15 @@
   // Footer's text font size (in pt).
   footer_text_font_size: "40",
 
+  // Body text font size (in pt).
+  body_font_size: "26",
+
   // The poster's content.
   body
 ) = {
   // Set the body font.
-  set text(font: "STIX Two Text", size: 16pt)
+  body_font_size = int(body_font_size) * 1pt
+  set text(font: "Times New Roman", size: body_font_size)
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in
