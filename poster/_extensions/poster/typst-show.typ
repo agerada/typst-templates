@@ -36,6 +36,9 @@
   // Color of the footer.
   $if(footer-color)$ footer_color: "$footer-color$", $endif$
 
+  // Color of the footer text.
+  $if(footer-text-color)$ footer_text_color: "$footer-text-color$", $endif$
+
   // DEFAULTS
   // ========
   // For 3-column posters, these are generally good defaults.
@@ -69,6 +72,9 @@
 
   // Footer's text font size (in pt).
   $if(footer-text-font-size)$ footer_text_font_size: [$footer-text-font-size$], $endif$
+
+  // Body text font size (in pt).
+  $if(body-font-size)$ body_font_size: $body-font-size$, $endif$
 
   doc,
 )
