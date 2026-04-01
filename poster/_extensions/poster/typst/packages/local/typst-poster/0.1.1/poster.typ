@@ -27,6 +27,15 @@
   // Email IDs of the authors.
   footer_email_ids: "Email IDs (separated by commas)",
 
+  // Poster number to display in the page corner.
+  poster_number: "",
+
+  // Position of poster number: top-left, top-right, bottom-left, bottom-right.
+  poster_number_position: "top-left",
+
+  // Poster number size in pt.
+  poster_number_size: "32",
+
   // Color of the footer.
   footer_color: "1c266f",
 
@@ -87,6 +96,34 @@
   title_column_size = int(title_column_size) * 1in
   footer_url_font_size = int(footer_url_font_size) * 1pt
   footer_text_font_size = int(footer_text_font_size) * 1pt
+  poster_number_size = int(poster_number_size) * 1pt
+
+  let poster_number_label = text(poster_number_size, poster_number, weight: 700, fill: rgb("222222"))
+  let poster_number_anchor = if poster_number_position == "top-left" {
+    left + top
+  } else if poster_number_position == "top-right" {
+    right + top
+  } else {
+    right + top
+  }
+
+  let poster_number_offset = if poster_number_position == "top-left" {
+    move(dx: 2in, dy: 1in, poster_number_label)
+  } else {
+    move(dx: -2in, dy: 1in, poster_number_label)
+  }
+
+  let poster_number_background = if poster_number != "" {
+    place(poster_number_anchor, poster_number_offset)
+  } else {
+    []
+  }
+
+  let top_margin = if poster_number != "" and (poster_number_position == "top-left" or poster_number_position == "top-right") {
+    2in
+  } else {
+    1in
+  }
 
   // Configure the page.
   // This poster defaults to 36in x 24in.
@@ -94,7 +131,8 @@
     width: width,
     height: height,
     margin: 
-      (top: 1in, left: 2in, right: 2in, bottom: 2in),
+      (top: top_margin, left: 2in, right: 2in, bottom: 2in),
+    background: poster_number_background,
     footer: [
       #set align(center)
       #set text(32pt)

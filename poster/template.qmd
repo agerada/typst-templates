@@ -13,8 +13,11 @@ format:
     footer-text: "ESCMID Global"
     footer-url: "liverpool.ac.uk"
     footer-emails: "alessandro.gerada@liverpool.ac.uk"
-    body-font-size: 32
+    body-font-size: 30
     keywords: ["Machine learning", "Whole genome sequencing", "Antimicrobial resistance", "Antimicrobial susceptibility testing"]
+    poster-number: "1A"
+    poster-number-position: "top-left"
+    poster-number-size: 36
 ---
 
 # Lorem Ipsum Dolor

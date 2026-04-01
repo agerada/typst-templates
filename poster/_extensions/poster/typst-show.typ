@@ -73,6 +73,11 @@
   // Footer's text font size (in pt).
   $if(footer-text-font-size)$ footer_text_font_size: [$footer-text-font-size$], $endif$
 
+  // Poster number options.
+  $if(poster-number)$ poster_number: "$poster-number$", $endif$
+  $if(poster-number-position)$ poster_number_position: "$poster-number-position$", $endif$
+  $if(poster-number-size)$ poster_number_size: $poster-number-size$, $endif$
+
   // Body text font size (in pt).
   $if(body-font-size)$ body_font_size: $body-font-size$, $endif$
 
