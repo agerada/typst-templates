@@ -13,7 +13,6 @@ format:
     footer-text: "ESCMID Global"
     footer-url: "liverpool.ac.uk"
     footer-emails: "alessandro.gerada@liverpool.ac.uk"
-    footer-color: "81bbbb"
     body-font-size: 32
     keywords: ["Machine learning", "Whole genome sequencing", "Antimicrobial resistance", "Antimicrobial susceptibility testing"]
 ---

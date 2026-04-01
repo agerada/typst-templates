@@ -31,7 +31,6 @@ format:
     footer-text: "ESCMID Global Vienna 2025"
     footer-url: "liverpool.ac.uk"
     footer-emails: "name@liverpool.ac.uk"
-    footer-color: "81bbbb"
     body-font-size: 26
     keywords: ["Machine learning", "Whole genome sequencing", "Antimicrobial resistance", "Antimicrobial susceptibility testing"]
 ---

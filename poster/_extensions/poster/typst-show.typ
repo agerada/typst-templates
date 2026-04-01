@@ -36,6 +36,9 @@
   // Color of the footer.
   $if(footer-color)$ footer_color: "$footer-color$", $endif$
 
+  // Color of the footer text.
+  $if(footer-text-color)$ footer_text_color: "$footer-text-color$", $endif$
+
   // DEFAULTS
   // ========
   // For 3-column posters, these are generally good defaults.

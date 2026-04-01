@@ -28,7 +28,10 @@
   footer_email_ids: "Email IDs (separated by commas)",
 
   // Color of the footer.
-  footer_color: "Hex Color Code",
+  footer_color: "1c266f",
+
+  // Color of the footer text.
+  footer_text_color: "ffffff",
 
   // DEFAULTS
   // ========
@@ -101,11 +104,11 @@
         inset: 20pt,
         radius: 10pt,
         [
-          #text(font: "Courier", size: footer_url_font_size, footer_url) 
+          #text(font: "Courier", size: footer_url_font_size, fill: rgb(footer_text_color), footer_url) 
           #h(1fr) 
-          #text(size: footer_text_font_size, smallcaps(footer_text)) 
+          #text(size: footer_text_font_size, fill: rgb(footer_text_color), smallcaps(footer_text)) 
           #h(1fr) 
-          #text(font: "Courier", size: footer_url_font_size, footer_email_ids)
+          #text(font: "Courier", size: footer_url_font_size, fill: rgb(footer_text_color), footer_email_ids)
         ]
       )
     ]
