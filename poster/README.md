@@ -5,7 +5,7 @@ An academic poster template designed for Typst. Supports both horizontal and ver
 ## Installing
 
 ```bash
-quarto use template quarto-ext/typst-templates/poster
+quarto use template agerada/typst-templates/poster
 ```
 
 This will install the format extension and create an example qmd file
